@@ -2,6 +2,26 @@ body {
   margin-top: 60px;
 }
 
+h1,
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+.portrait {
+  width: 50%;
+  height: 80%;
+  margin-bottom: 5%;
+}
+
+li {
+  margin-left: 30%;
+}
+
+.info,
+.quotes {
+  margin: 5% 5% 0 5%;
+}
+
 /*
 .jumbotron,
 .my-4 {

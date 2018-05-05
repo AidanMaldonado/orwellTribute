@@ -13,13 +13,37 @@
   </head>
   <body>
 
-    <div class="container text-center">
-      <div class="jumbotron ">
-        <h1 class="display-4">George Orwell</h1>
-        <button type="button" class="btn btn-info" href="https://en.wikipedia.org/wiki/George_Orwell">More Info</button>
+    <!-- Container utilizing Bootstrap-->
+    <div class="container">
+      <!-- Jumbotron containing primary content -->
+      <div class="jumbotron">
+        <div class="header text-center">
+          <h1 class="display-3">George Orwell</h1>
+          <h3><em>An author who will never be forgotten<em></h3>
+          <div class="image">
+            <image src="images/georgeOrwell.jpg" alt="George Orwell Potrait" class="rounded mx-auto d-block portrait">
+          </div>
+        </div>
+        <h4 class="text-secondary text-center">Reknowned books</h4>
+        <ul>
+          <li>1984</li>
+          <li>Animal Farm</li>
+          <li>Homage to Catalonia</li>
+        </ul>
+        <div class="quotes text-center">
+          <h4 class="text-secondary">Quotes</h4>
+          <p><em>"War is peace. Freedom is slavery. Ignorance is strength."</em></p>
+          <p><em>"All animals are equal, but some animals are more equal than others."</em></p>
+          <p><em>"Who controls the past controls the future. Who controls the present controls the past."</em></p>
+        </div>
+        <div class="info text-center">
+          <a href="https://en.wikipedia.org/wiki/George_Orwell" target="_blank"><button type="button" class="btn btn-info" role="button">More Info</button></a>
+        </div>
       </div>
-      <hr class="my-4">
-      <p>Made by Markus Entertainment&copy;</p>
+      <div class="footer text-center">
+        <hr class="my-4">
+        <p>Written and coded by <a href="https://github.com/AidanMaldonado">Aidan Maldonado</a></p>
+      </div>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
